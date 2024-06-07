@@ -1,5 +1,4 @@
 import 'package:calculator/colors.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
 
@@ -90,8 +89,8 @@ class _CalculatorAppState extends State<CalculatorApp> {
           children: [
             button(text: "AC",  tColor: orangeColor ),
             button(text: "<-",  tColor: orangeColor),
-            button(text: "%",  tColor: orangeColor),
-            button(text: "/", tColor: orangeColor),
+            button(text: "+/-",  tColor: orangeColor),
+            button(text: "÷", tColor: orangeColor),
            
               
             ],
